@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Purchasing;
 
-public class GameIAPManager : MonoBehaviour, IStoreListener
+public class GameIAPManager : MonoBehaviour//, IStoreListener
 {
     public static GameIAPManager Instance;
 
@@ -46,7 +46,7 @@ public class GameIAPManager : MonoBehaviour, IStoreListener
         }
 
 
-        UnityPurchasing.Initialize(this, builder);
+        //UnityPurchasing.Initialize(this, builder);
     }
 
     private bool IsInitialized()

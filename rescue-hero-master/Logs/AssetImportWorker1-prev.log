@@ -1,0 +1,276 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GameProject/Ssssss/rescue-hero-master
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57176
+Successfully changed project path to: D:/GameProject/Ssssss/rescue-hero-master
+D:/GameProject/Ssssss/rescue-hero-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8672] Host "[IP] 192.168.3.7 [Port] 0 [Flags] 2 [Guid] 2316547623 [EditorId] 2316547623 [Version] 1048832 [Id] WindowsEditor(7,USER-20230617HP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8672] Host "[IP] 192.168.3.7 [Port] 0 [Flags] 2 [Guid] 2316547623 [EditorId] 2316547623 [Version] 1048832 [Id] WindowsEditor(7,USER-20230617HP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 98.52 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameProject/Ssssss/rescue-hero-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.14037.17019
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2021.3.29f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005456 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 333 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.73 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (451ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017954 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Unloading broken assembly Assets/Plugins/UnityPurchasing/Bin/Stores.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.TypeInitializationException: The type initializer for 'GooglePlayServices.PlayServicesResolver' threw an exception. ---> System.Reflection.AmbiguousMatchException: Ambiguous match found.
+  at System.RuntimeType.GetMethodImplCommon (System.String name, System.Int32 genericParameterCount, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00050] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.RuntimeType.GetMethodImpl (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Type.GetMethod (System.String name, System.Reflection.BindingFlags bindingAttr) [0x0000e] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at GooglePlayServices.UnityCompat.GetUnity56AndAboveApplicationIdentifier (UnityEditor.BuildTarget buildTarget) [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\UnityCompat.cs:437 
+  at GooglePlayServices.UnityCompat.GetApplicationId (UnityEditor.BuildTarget buildTarget) [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\UnityCompat.cs:491 
+  at GooglePlayServices.PlayServicesResolver.GetAndroidApplicationId () [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:978 
+  at GooglePlayServices.PlayServicesResolver.OnSettingsChanged () [0x00023] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:2325 
+  at GooglePlayServices.PlayServicesResolver..cctor () [0x002b9] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:920 
+   --- End of inner exception stack trace ---
+  at Firebase.Editor.GenerateXmlFromGoogleServicesJson..cctor () [0x001be] in Z:\tmp\tmp.pxoeYNk3oG\firebase\app\client\unity\editor\src\GenerateXmlFromGoogleServicesJson.cs:120 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\GameProject\Ssssss\rescue-hero-master\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at Google.ProjectSettings.Save () [0x0006d] in Z:\tmp\tmp.oTzlk8YCLj\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:820 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.oTzlk8YCLj/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at Z:/tmp/tmp.oTzlk8YCLj/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:837)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at Z:/tmp/tmp.oTzlk8YCLj/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:484)
+Google.ProjectSettings:SetBool (string,bool) (at Z:/tmp/tmp.oTzlk8YCLj/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:496)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at Z:/tmp/tmp.6XDFog0oRW/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:898)
+Google.IOSResolver:.cctor () (at Z:/tmp/tmp.6XDFog0oRW/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:653)
+Firebase.Editor.XcodeProjectPatcher:.cctor () (at Z:/tmp/tmp.pxoeYNk3oG/firebase/app/client/unity/editor/src/XcodeProjectPatcher.cs:74)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Z:/tmp/tmp.oTzlk8YCLj/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 837)
+
+System.TypeInitializationException: The type initializer for 'GooglePlayServices.PlayServicesResolver' threw an exception. ---> System.Reflection.AmbiguousMatchException: Ambiguous match found.
+  at System.RuntimeType.GetMethodImplCommon (System.String name, System.Int32 genericParameterCount, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00050] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.RuntimeType.GetMethodImpl (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Type.GetMethod (System.String name, System.Reflection.BindingFlags bindingAttr) [0x0000e] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at GooglePlayServices.UnityCompat.GetUnity56AndAboveApplicationIdentifier (UnityEditor.BuildTarget buildTarget) [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\UnityCompat.cs:437 
+  at GooglePlayServices.UnityCompat.GetApplicationId (UnityEditor.BuildTarget buildTarget) [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\UnityCompat.cs:491 
+  at GooglePlayServices.PlayServicesResolver.GetAndroidApplicationId () [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:978 
+  at GooglePlayServices.PlayServicesResolver.OnSettingsChanged () [0x00023] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:2325 
+  at GooglePlayServices.PlayServicesResolver..cctor () [0x002b9] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:920 
+   --- End of inner exception stack trace ---
+  at Firebase.Editor.XcodeProjectPatcher..cctor () [0x0006c] in Z:\tmp\tmp.pxoeYNk3oG\firebase\app\client\unity\editor\src\XcodeProjectPatcher.cs:76 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.AmbiguousMatchException: Ambiguous match found.
+  at System.RuntimeType.GetMethodImplCommon (System.String name, System.Int32 genericParameterCount, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00050] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.RuntimeType.GetMethodImpl (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Reflection.CallingConventions callConv, System.Type[] types, System.Reflection.ParameterModifier[] modifiers) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Type.GetMethod (System.String name, System.Reflection.BindingFlags bindingAttr) [0x0000e] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at System.Type.GetMethod (System.String name) [0x00000] in <47fc8c70fa834cbf8141d7c1a7589125>:0 
+  at GooglePlayServices.UnityCompat.GetUnity56AndAboveApplicationIdentifier (UnityEditor.BuildTarget buildTarget) [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\UnityCompat.cs:437 
+  at GooglePlayServices.UnityCompat.GetApplicationId (UnityEditor.BuildTarget buildTarget) [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\UnityCompat.cs:491 
+  at GooglePlayServices.PlayServicesResolver.GetAndroidApplicationId () [0x00000] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:978 
+  at GooglePlayServices.PlayServicesResolver.OnSettingsChanged () [0x00023] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:2325 
+  at GooglePlayServices.PlayServicesResolver..cctor () [0x002b9] in Z:\tmp\tmp.0RQo3emq5M\third_party\unity\unity_jar_resolver\source\AndroidResolver\src\PlayServicesResolver.cs:920 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.3.29f1]
+System.MethodAccessException: Method `UnityEngine.Purchasing.VersionCheck.LessThan(string,string)' is inaccessible from method `UnityEditor.Purchasing.FacebookBuildControl.SetupFacebookConfig()'
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_throw_method_access(intptr,intptr)
+  at UnityEditor.Purchasing.FacebookBuildControl.SetupFacebookConfig () [0x00006] in <9c5a6c83d4ce4fea836412d752fa7e99>:0 
+  at UnityEditor.Purchasing.FacebookBuildControl..cctor () [0x00064] in <9c5a6c83d4ce4fea836412d752fa7e99>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Mono: successfully reloaded assembly
+- Completed reload, in  1.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1677ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1406ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (936ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (747ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.66 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 284 unused Assets / (1.4 MB). Loaded Objects now: 3642.
+Memory consumption went from 156.2 MB to 154.7 MB.
+Total: 5.129800 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.095000 ms MarkObjects: 3.711600 ms  DeleteObjects: 0.957500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95383.251515 seconds.
+  path: Assets/MapBase.prefab
+  artifactKey: Guid(3e62ea48a419a9d4185d180fc63cc9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapBase.prefab using Guid(3e62ea48a419a9d4185d180fc63cc9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f7a92307896d7bee18e1423f5c6b22') in 0.117773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575006 seconds.
+  path: Assets/Atlas/Menu.spriteatlas
+  artifactKey: Guid(fb0a2d50790ec474e99a3b8b35a0ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Atlas/Menu.spriteatlas using Guid(fb0a2d50790ec474e99a3b8b35a0ce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d8f9db4eda53bd55c56f70a2a4ff51') in 0.006703 seconds 
