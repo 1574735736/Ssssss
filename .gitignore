@@ -1,3 +1,7 @@
 /Library
-/Logs
 /Temp
+/Logs
+/obj
+/Assets/WebGLTemplates
+/Assets/WX-WASM-SDK-V2
+/Assets/GravityEngine

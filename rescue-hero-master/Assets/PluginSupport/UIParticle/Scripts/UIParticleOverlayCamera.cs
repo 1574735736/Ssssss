@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-#if UNITY_2018_3_OR_NEWER && UNITY_EDITOR
-using PrefabStageUtility = UnityEditor.SceneManagement.PrefabStageUtility;
-#endif
+//#if UNITY_2018_3_OR_NEWER && UNITY_EDITOR
+//using PrefabStageUtility = UnityEditor.SceneManagement.PrefabStageUtility;
+//#endif
 
 namespace Coffee.UIExtensions
 {
@@ -24,27 +24,27 @@ namespace Coffee.UIExtensions
         {
             get
             {
-#if UNITY_2018_3_OR_NEWER && UNITY_EDITOR
-                // If current scene is prefab mode, create OverlayCamera for editor.
-                var prefabStage = UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage();
-                if (prefabStage != null && prefabStage.scene.isLoaded)
-                {
-                    if (!s_InstanceForPrefabMode)
-                    {
-                        // This GameObject is not saved in prefab.
-                        // This GameObject is not shown in the hierarchy view.
-                        // When you exit prefab mode, this GameObject is destroyed automatically.
-                        var go = new GameObject(typeof(UIParticleOverlayCamera).Name + "_ForEditor")
-                        {
-                            hideFlags = HideFlags.HideAndDontSave,
-                            tag = "EditorOnly",
-                        };
-                        UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(go, prefabStage.scene);
-                        s_InstanceForPrefabMode = go.AddComponent<UIParticleOverlayCamera>();
-                    }
-                    return s_InstanceForPrefabMode;
-                }
-#endif
+//#if UNITY_2018_3_OR_NEWER && UNITY_EDITOR
+//                // If current scene is prefab mode, create OverlayCamera for editor.
+//                var prefabStage = UnityEditor.SceneManagement.PrefabStageUtility.GetCurrentPrefabStage();
+//                if (prefabStage != null && prefabStage.scene.isLoaded)
+//                {
+//                    if (!s_InstanceForPrefabMode)
+//                    {
+//                        // This GameObject is not saved in prefab.
+//                        // This GameObject is not shown in the hierarchy view.
+//                        // When you exit prefab mode, this GameObject is destroyed automatically.
+//                        var go = new GameObject(typeof(UIParticleOverlayCamera).Name + "_ForEditor")
+//                        {
+//                            hideFlags = HideFlags.HideAndDontSave,
+//                            tag = "EditorOnly",
+//                        };
+//                        UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(go, prefabStage.scene);
+//                        s_InstanceForPrefabMode = go.AddComponent<UIParticleOverlayCamera>();
+//                    }
+//                    return s_InstanceForPrefabMode;
+//                }
+//#endif
 
                 // Find instance in scene, or create new one.
                 if (object.ReferenceEquals(s_Instance, null))
